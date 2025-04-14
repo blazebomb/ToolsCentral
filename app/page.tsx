@@ -1,7 +1,7 @@
 import TokenGenerator from "@/components/token-generator"
 import ThemeSwitcher from "@/components/theme-switcher"
 import SupportSection from "@/components/support-section"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card" // Importing Card components
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card" 
 
 export default function Home() {
   return (
@@ -17,10 +17,8 @@ export default function Home() {
           </CardContent>
         </Card>
 
-        {/* Additional sidebar content can go here, e.g., links or descriptions */}
       </div>
 
-      {/* Main Content Area */}
       <div className="flex-1">
         <div className="absolute top-4 right-4">
           <ThemeSwitcher />
